@@ -1,0 +1,82 @@
+html {
+  scroll-behavior:smooth;
+  background-image: url(us2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+body{
+  backdrop-filter:blur(20px);
+  border:5px solid rgba(255,255,255,0.4);
+   height:850px;
+  width:80%;
+ margin-left:170px;
+  margin-top:50px;
+  
+}
+
+@font-face{
+  font-family: myfont;
+  src:url(BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+ @font-face{
+   font-family: myfontt;
+   src:url(blackberry-jam-font\ extracted/gagan.ttf);
+ }
+header h1{
+  text-align: center;
+  font-family: myfontt;
+  letter-spacing:25px;
+  
+  width:auto;
+  margin:2px 200px;
+  color:red;
+  text-shadow:2px 3px  blue;
+ 
+}
+
+div{
+  text-align:center;
+  font-size:150%;
+
+  }
+.PARA1{
+  color: yellow;
+   line-height: 2em;
+  }
+.PARA2
+{
+  color: blue;
+  letter-spacing: 5px;
+  line-height:2.5em;
+  border:none;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: myfont;
+}
+.para3{
+  color:darkgreen;
+  line-height:2em;
+  font-weight: 200;
+}
+#button{
+  bottom: 0px;
+  
+  text-transform:uppercase;
+  padding:5px 10px;
+  letter-spacing:15px;
+  font-family:Arial;
+  margin-left:50px;
+  margin-right:50px;
+  
+  }
+a{
+  text-decoration: none;
+}
+a:hover{
+  font-size: 150%;
+  font-weight: 10px;
+  color:red;
+}
+
+
